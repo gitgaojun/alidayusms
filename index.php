@@ -11,8 +11,8 @@ date_default_timezone_set('Asia/Shanghai');
 
 // include "alidayu/TopSdk.php";
 // $c = new TopClient;
-// $c->appkey = '23320876';
-// $c->secretKey = 'baa05ae77aef851af35b17e50fc1bcc6';
+// $c->appkey = appkey;
+// $c->secretKey = secretKey;
 // $req = new AlibabaAliqinFcSmsNumSendRequest;
 // $req->setExtend("111");
 // $req->setSmsType("normal");
@@ -22,7 +22,7 @@ date_default_timezone_set('Asia/Shanghai');
 // 		'product'=>'jun'
 // ));
 // $req->setSmsParam($params);
-// $req->setRecNum("13510066907");
+// $req->setRecNum("13510066900");
 // $req->setSmsTemplateCode("SMS_5385636");
 // $resp = $c->execute($req);
 // var_dump($resp);exit;
@@ -31,8 +31,8 @@ date_default_timezone_set('Asia/Shanghai');
 
 include "alidayu/TopSdk.php";
 $c = new TopClient;
-$c->appkey = '23320876';
-$c->secretKey = 'baa05ae77aef851af35b17e50fc1bcc6';
+$c->appkey = appkey;
+$c->secretKey = secretKey;
 $req = new AlibabaAliqinFcSmsNumSendRequest;
 $req->setExtend("111");
 $req->setSmsType("normal");
