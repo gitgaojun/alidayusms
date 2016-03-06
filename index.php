@@ -42,7 +42,7 @@ $params = json_encode(array(
 		'product'=>'jun'
 ));
 $req->setSmsParam($params);
-$req->setRecNum("13510066907");
+$req->setRecNum("13510066900");
 $req->setSmsTemplateCode("SMS_5385638");
 $resp = $c->execute($req);
 var_dump($resp);exit;
